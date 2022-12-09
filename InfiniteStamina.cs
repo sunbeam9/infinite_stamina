@@ -14,9 +14,9 @@ namespace InfiniteStamina
     public class InfiniteStamina : IEventListener<UnturnedPlayerStaminaUpdatedEvent>
     {
         [EventListener(Priority = EventListenerPriority.Lowest)]
-        public async Task HandleEventAsync(object sender, UnturnedPlayerEvent @event)
+        public async Task HandleEventAsync(UnturnedPlayerStaminaUpdatedEvent @event)
         {
-            if (@event.Player.Player.life.stamina <= 50) @event.Player.Player.life.serverModifyStamina(100.0);
+            if (@event.Stamina <= 50) @event.Player.Player.life.serverModifyStamina(100);
         }
     }
 }
