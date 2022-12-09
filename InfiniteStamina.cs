@@ -4,6 +4,7 @@ using Microsoft.Extensions.Localization;
 using Microsoft.Extensions.Logging;
 using Cysharp.Threading.Tasks;
 using OpenMod.API.Plugins;
+using OpenMod.API.Eventing;
 using OpenMod.Unturned.Events;
 using OpenMod.Unturned.Players.Stats.Events;
 // For more, visit https://openmod.github.io/openmod-docs/devdoc/guides/getting-started.html

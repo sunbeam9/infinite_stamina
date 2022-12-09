@@ -1,0 +1,5 @@
+C:\Users\sunbe\source\repos\InfiniteStamina\obj\Release\net461\InfiniteStamina.csproj.AssemblyReference.cache
+C:\Users\sunbe\source\repos\InfiniteStamina\obj\Release\net461\InfiniteStamina.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sunbe\source\repos\InfiniteStamina\obj\Release\net461\InfiniteStamina.AssemblyInfoInputs.cache
+C:\Users\sunbe\source\repos\InfiniteStamina\obj\Release\net461\InfiniteStamina.AssemblyInfo.cs
+C:\Users\sunbe\source\repos\InfiniteStamina\obj\Release\net461\InfiniteStamina.csproj.CoreCompileInputs.cache
