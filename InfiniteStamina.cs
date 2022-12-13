@@ -23,12 +23,14 @@ namespace InfiniteStamina
           {
           }
 
-          protected override async UniTask OnLoadAsync()
+          protected override UniTask OnLoadAsync()
           {
+            return UniTask.CompletedTask;
           }
 
-          protected override async UniTask OnUnloadAsync()
+          protected override UniTask OnUnloadAsync()
           {
+            return UniTask.CompletedTask;
           }
       }
 
