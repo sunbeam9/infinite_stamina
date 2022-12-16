@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sunbe\\source\\repos\\InfiniteStamina\\InfiniteStamina.csproj": {}
+    "C:\\Users\\sunbe\\source\\repos\\infinitestamina\\InfiniteStamina.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sunbe\\source\\repos\\InfiniteStamina\\InfiniteStamina.csproj": {
-      "version": "0.1.0",
+    "C:\\Users\\sunbe\\source\\repos\\infinitestamina\\InfiniteStamina.csproj": {
+      "version": "1.1.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sunbe\\source\\repos\\InfiniteStamina\\InfiniteStamina.csproj",
+        "projectUniqueName": "C:\\Users\\sunbe\\source\\repos\\infinitestamina\\InfiniteStamina.csproj",
         "projectName": "RaidCity.InfiniteStamina",
-        "projectPath": "C:\\Users\\sunbe\\source\\repos\\InfiniteStamina\\InfiniteStamina.csproj",
+        "projectPath": "C:\\Users\\sunbe\\source\\repos\\infinitestamina\\InfiniteStamina.csproj",
         "packagesPath": "C:\\Users\\sunbe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sunbe\\source\\repos\\InfiniteStamina\\obj\\",
+        "outputPath": "C:\\Users\\sunbe\\source\\repos\\infinitestamina\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sunbe\\AppData\\Roaming\\NuGet\\NuGet.Config",

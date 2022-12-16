@@ -9,7 +9,7 @@
 		<PackageAuthor>Sun Beam</PackageAuthor>
 		<PackageTags>openmod openmod-plugin unturned</PackageTags>
 		<!-- XXX can be unturned, unityengine or universal depending on your plugin -->
-		<Version>1.0.0</Version>
+		<Version>1.1.0</Version>
 		<!-- Your plugins version. Must be semversion, see https://semver.org/ -->
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<GenerateNugetPackage>true</GenerateNugetPackage>
@@ -27,9 +27,9 @@
     <WarningsAsErrors>nullable</WarningsAsErrors>
     <NoWarn>$(NoWarn);NU1701;NU1702;CS0436</NoWarn>
     <LangVersion>9.0</LangVersion>
-    <Version>1.0.0</Version>
-    <InformationalVersion>1.0.0</InformationalVersion>
-    <PackageVersion>1.0.0</PackageVersion>
+    <Version>1.1.0</Version>
+    <InformationalVersion>1.1.0</InformationalVersion>
+    <PackageVersion>1.1.0</PackageVersion>
   </PropertyGroup>
 
   <ItemGroup>

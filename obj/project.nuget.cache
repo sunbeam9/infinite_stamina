@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eWnFVrunrEnu9qL7wRDj+z3kRrrW22Hf9uDANA7xCsVm56uekAVVFbff62n3KtUhgZLPlHiulmCWoPxR5GO0ow==",
+  "dgSpecHash": "UbQpl6LZGlH83HWD6OPyVSrQKG8XSE+4+2kSueO6KlmGyvcmI2rLxIIPqptb49QCXR5y52vlWhE+hSl2h1HSwQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sunbe\\source\\repos\\InfiniteStamina\\InfiniteStamina.csproj",
+  "projectFilePath": "C:\\Users\\sunbe\\source\\repos\\infinitestamina\\InfiniteStamina.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sunbe\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
     "C:\\Users\\sunbe\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.2.0\\autofac.extensions.dependencyinjection.7.2.0.nupkg.sha512",

@@ -39,9 +39,32 @@ namespace InfiniteStamina
         [EventListener(Priority = EventListenerPriority.Lowest)]
         public Task HandleEventAsync(object? sender, UnturnedPlayerStaminaUpdatedEvent @event)
         {
-            if (@event.Stamina <= 50) @event.Player.Player.life.serverModifyStamina(100);
+            if (@event.Stamina <= 95) @event.Player.Player.life.serverModifyStamina(100);
 
             return Task.CompletedTask;
         }
     }
+
+    public class FoodUpdatedEventListener : IEventListener<UnturnedPlayerFoodUpdatedEvent>
+    {
+        [EventListener(Priority = EventListenerPriority.Lowest)]
+        public Task HandleEventAsync(object? sender, UnturnedPlayerFoodUpdatedEvent @event)
+        {
+            if (@event.Food <= 5) @event.Player.Player.life.serverModifyFood(50);
+
+            return Task.CompletedTask;
+        }
+    }
+
+    public class WaterUpdatedEventListener : IEventListener<UnturnedPlayerWaterUpdatedEvent>
+    {
+        [EventListener(Priority = EventListenerPriority.Lowest)]
+        public Task HandleEventAsync(object? sender, UnturnedPlayerWaterUpdatedEvent @event)
+        {
+            if (@event.Water <= 5) @event.Player.Player.life.serverModifyWater(50);
+
+            return Task.CompletedTask;
+        }
+    }
+
 }
